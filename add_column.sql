@@ -4,6 +4,6 @@
 USE loan_management;
 
 ALTER TABLE Users ADD COLUMN profile_image LONGTEXT NULL;
-
+-- hfkfdk
 -- Verify the column was added
 DESCRIBE Users;
